@@ -1,0 +1,8 @@
+{% load react %}
+{% load static %}
+<script>
+    window.key_field = "{{ key_field }}";
+    window.props = {{ props|json }};
+    window.react_mount = document.getElementById('{{ react_root_id }}');
+</script>
+<script src="{% static component %}"></script>
