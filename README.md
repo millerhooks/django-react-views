@@ -2,6 +2,8 @@
 
 This is a fork of [django-react-views](https://pypi.org/project/django-react-views/). There wasn't a public git repo of it and I might need to change it later, so I'm putting it here.
 
+------
+
 django-react-riews is a Django app providing generic Class Based views and template tags that make it easy to use react
 alongside django views and templates.
 
